@@ -10,6 +10,9 @@ use warnings;
 our $scenario = {
     summary => 'Benchmark startup of various data cloning modules',
     module_startup => 1,
+    modules => {
+        'Clone::Util' => {version=>0.03},
+    },
     participants => [
         {module=>'Clone'},
         {module=>'Clone::PP'},
