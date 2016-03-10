@@ -1,5 +1,10 @@
 Revision history for Bench-Scenarios-CloneModules
 
+0.02    2016-03-10 (PERLANCAR)
+
+	- Add datasets: array10k, hashes.
+
+
 0.01    2016-03-10 (PERLANCAR)
 
         - First release.
