@@ -15,13 +15,14 @@ our $scenario = {
         {module=>'Clone::PP'},
         #{module=>'Clone::Any'}, # i no longer recommend using this
         {module=>'Clone::Util'},
+        {module=>'Data::Clone'},
         {module=>'Function::Fallback::CoreOrPP'},
         {module=>'Sereal::Dclone'},
         {module=>'Storable'},
     ],
     #datasets => [
     #],
-    on_result_failure => 'warn',
+    on_failure => 'skip',
 };
 
 1;
