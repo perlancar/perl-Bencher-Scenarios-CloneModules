@@ -21,7 +21,11 @@ our $scenario = {
         {name=>'array1'   , args=>{data=>[1]}},
         {name=>'array10'  , args=>{data=>[1..10]}},
         {name=>'array100' , args=>{data=>[1..100]}},
-        {name=>'array1000', args=>{data=>[1..1000]}},
+        {name=>'array1k'  , args=>{data=>[1..1000]}},
+        {name=>'array10k' , args=>{data=>[1..10_000]}},
+
+        {name=>'hash1k'   , args=>{data=>{map {$_=>1} 1..1000}}},
+        {name=>'hash10k'  , args=>{data=>{map {$_=>1} 1..10_000}}},
     ],
 };
 
