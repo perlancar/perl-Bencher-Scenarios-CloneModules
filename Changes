@@ -1,3 +1,12 @@
+0.050   2021-07-31  Released-By: PERLANCAR; Urgency: low
+
+        - No functional changes.
+
+	- [build] Rebuild with and adjust to updated
+          Pod::Weaver::Plugin::Bencher::Scenario (0.251) to tweak texts in
+          generated POD section. Generate charts.
+
+
 0.04    2017-01-25  Released-By: PERLANCAR
 
 	- No functional changes.
