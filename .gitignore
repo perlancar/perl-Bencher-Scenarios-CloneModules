@@ -2,3 +2,4 @@ Bencher-Scenarios-CloneModules-*
 .build
 *~
 nytprof*
+.DS_Store
